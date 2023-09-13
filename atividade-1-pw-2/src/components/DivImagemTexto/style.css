@@ -1,0 +1,26 @@
+.cardImagem{
+    display: flex;
+    justify-content: space-between;
+    width: 889px;
+    height: 170.29px;
+}
+
+.cardImagem .cardInfo{
+    width: 207px;
+    height: 92.33px;
+    gap: 12.33px;
+}
+
+.cardImagem .cardInfo p:nth-child(1){
+    color: #372D3B;
+    font-weight: 700;
+    font-size: 41.1px;
+    line-height: 49.73px;
+
+}
+
+.cardImagem .cardInfo p:nth-child(2){
+    font-size: 24.66px;
+    line-height: 29.84px;   
+}
+

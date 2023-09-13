@@ -1,34 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+import DivRadiusTop from './components/DivRadiusTop'
+import DivTitulo from './components/DivTitulo'
+import DivImagemTexto from './components/DivImagemTexto'
+import InputForm from './components/InputForm'
+import Mensagens from './components/Mensagens'
+import mulherMensagem from "./assets/mulherMensagem.svg"
+import homemMensagem from "./assets/homemMensagem.svg"
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main>
+      <DivRadiusTop/>
+      <DivTitulo/>
+      <DivImagemTexto/>
+      <InputForm/>
+      <div className='divMensagens'>
+        <Mensagens
+          foto={mulherMensagem}
+          text="Boris estou no local já lhe esperando. estou com camisa azul e calça jeans"
+        />
+        <Mensagens
+          foto={homemMensagem}
+          text="Acabei de lhe ver. Vou estacionar o carro próximo."
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </main>
   )
 }
 

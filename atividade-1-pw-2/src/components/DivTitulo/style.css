@@ -1,0 +1,24 @@
+.divText {
+	width: 880px;
+	height: 82px;
+	gap: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: initial;
+	flex-direction: column;
+}
+
+.divText h2 {
+	width: 673px;
+	height: 48px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48.41px;
+}
+
+.divText p {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30.26px;
+	color: #372d3b;
+}

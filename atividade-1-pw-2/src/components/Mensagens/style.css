@@ -1,0 +1,29 @@
+.mensagem {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 881px;
+	height: 74px;
+	padding: 0 28px;
+	border-radius: 9px;
+	border: 1px none;
+	background-color: #f0eaea;
+}
+
+.mensagem .box {
+	display: flex;
+	gap: 105px;
+	align-items: center;
+}
+
+.mensagem .box p {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 19.2px;
+	color: #372d3b;
+}
+
+.mensagem img {
+	cursor: pointer;
+}

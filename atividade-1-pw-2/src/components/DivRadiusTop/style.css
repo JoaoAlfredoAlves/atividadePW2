@@ -1,0 +1,14 @@
+.centralizar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#buttonTop {
+	width: 168px;
+	height: 68px;
+	border-radius: 999px;
+	background-color: #e5d8ea;
+	margin: 18px;
+	margin-top: 8px;
+}
